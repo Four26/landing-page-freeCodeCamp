@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+ scroll-behavior: smooth;
+
+}
+
+body {
+ background-color: #eeeeee;
+ font-family: 'Lato', sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+#header {
+ top: 0;
+ padding: 30px;
+ width: 100%;
+ position: fixed;
+ background-color: #eeeeee;
+}
+
+
+#nav-bar {
+ float: right;
+ margin-right: 50px;
+}
+
+#nav-bar a {
+ margin: 0 100px 0 0;
+ text-decoration: none;
+ font-size: 1.1rem;
+ color: black;
+}
+
+#nav-bar a:hover {
+ color: blue;
+}
+
+#header-img {
+ width: 300px;
+ margin-left: 20px;
+}
+
+/* FORM */
+#form {
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 100px;
+ margin-bottom: 50px;
+}
+
+h3 {
+ font-size: 1.8rem;
+}
+
+#email {
+ width: 240px;
+ height: 20px;
+ padding: 10px;
+ border: none;
+}
+
+
+#submit {
+ margin-top: 20px;
+ background-color: #f3be21;
+ border: none;
+ cursor: pointer;
+ font-size: 1rem;
+ font-weight: bold;
+ padding: 5px;
+
+}
+
+/* FEATURES */
+.container {
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+}
+
+
+#features {
+
+ width: 900px;
+ margin: 0;
+ padding: 0;
+
+}
+
+span {
+ font-size: 2rem;
+ font-weight: bold;
+ display: flex;
+ justify-content: left;
+ margin-left: 100px;
+}
+
+i {
+ margin: 20px;
+ float: left;
+ display: flex;
+}
+
+p {
+ margin-left: 100px;
+ margin-top: 0;
+}
+
+
+#features ul li {
+ list-style: none;
+}
+
+#features ul li i {
+ font-size: 2rem;
+ color: darkorange;
+}
+
+/* HOW IT WORKS */
+#how-it-works {
+ display: flex;
+ justify-content: center;
+ padding: 20px;
+ margin: 0;
+ border: none;
+}
+
+/* PRICING */
+
+
+
+#pricing {
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+ gap: 50px;
+ margin-top: 50px;
+ margin-bottom: 100px;
+}
+
+.product {
+ border: 1px solid black;
+ width: 300px;
+ text-align: center;
+}
+
+.product input {
+ background-color: #f3be21;
+ border: none;
+ font-size: 1.5rem;
+ margin-bottom: 20px;
+ cursor: pointer;
+}
+
+.product ol li {
+ list-style: none;
+ margin: 10px;
+}
+
+.items {
+ background-color: gray;
+ font-size: 1rem;
+ padding: 20px;
+}
+
+/* FOOTER */
+.footer {
+ display: flex;
+ justify-content: center;
+}
+
+
+footer {
+ background-color: #ddd8d8;
+ margin-top: 10px;
+ padding: 10px;
+ width: 1000px;
+
+}
+
+footer ul {
+ display: flex;
+ justify-content: flex-end;
+
+}
+
+footer ul li {
+ list-style: none;
+ padding: 0 10px;
+ font-size: 1.2rem;
+ cursor: pointer;
+
+}
+
+footer>span {
+ margin-top: 5px;
+ display: flex;
+ justify-content: flex-end;
+ font-size: 0.8em;
+ color: #000;
+}
+
+@media (min-width: 700px) {
+ .footer {
+  display: flex;
+  justify-content: center;
+ }
+}
